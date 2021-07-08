@@ -1,6 +1,6 @@
 #This code requires the edf-anonymize.exe installed in Path and computer
 #Code also requires the os and subprocess modules
-#!/usr/bin/python
+#!/Library/Frameworks/Python.framework/Versions/3.9/bin/python3
 
 import os
 import subprocess
