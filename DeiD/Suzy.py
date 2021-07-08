@@ -1,16 +1,4 @@
-import os
-
-cal = os.listdir('.')
-
-print(cal)
-
-#xl = 1
-
-#subjectID = 'INMO-285'
-
-#print("edf-anonymize.exe filename.edf DeID/filename.edf Mae Jemison " + subjectID)
-
-#for item in cal:
+import oMae Jemison                                                                     Suzy.py                                                                         01.01m in cal:
     #print (item)
 #for item in range (0,5):
     #print(cal[XL])
