@@ -1,12 +1,4 @@
-import os
-import subprocess
-
-cal = os.listdir('.')
-
-print(cal)
-
-for x in cal:
-    print("edf-anonymize.exe " + " '" + x + "'" + " 'DeID/" + x + "'" + " 'Mae Jemison' " + x[0:8])
+import oMae Jemison                                                                     Suzyback                                                                        01.01:8])
     #print (len(x)
     subprocess.run("edf-anonymize.exe " + " '" + x + "'" + " 'DeID/" + x + "'" + " 'Mae Jemison' " + x[0:8], shell=True)
     
