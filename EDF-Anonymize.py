@@ -1,6 +1,11 @@
 #!/Library/Frameworks/Python.framework/Versions/3.9/bin/python3
 #This code requires the edf-anonymize.exe installed in Path and computer
-#Code also requires the os and subprocess modules
+#Code also requires the os, sys, and subprocess modules
+#Suzybackup.py -- mimics EDF-Anonymize.exe software
+#This program is to run with the name Suzybackup.py with the synopsis Suzybackup.py [args ...]
+#The program is executed with "python Suzybackup.py [args ...]"
+#Args will be used to replace patient information. Multiple word arguments should be enclosed in double quotation marks
+#Written by Merium Easterling, 07/12/2021
 
 import os
 import subprocess
