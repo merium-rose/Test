@@ -8,6 +8,7 @@ import sys
 
 cal = os.listdir('.')
 
+#assigns the second argument as the name replacement
 print 'Number of arguments:', len(sys.argv), 'arguments.'
 print 'Argument List:', str(sys.argv)
 PatientID = sys.argv[1]
@@ -19,6 +20,7 @@ print(cal)
     #print("edf-anonymize.exe " + " '" + x + "'" + " 'DeID/" + x + "'" + " 'Mae Jemison' " + x[0:8])
     #subprocess.run("edf-anonymize.exe " + " '" + x + "'" + " 'DeID/" + x + "'" + " 'Mae Jemison' " + x[0:8], shell=True)
 
+#Applys anonymization to edf files only
 for File in os.listdir("."):
     if File.endswith(".edf"):
         print("edf-anonymize.exe " + " '" + File + "'" + " 'DeID/" + File + "'" + ' ' + "'" + PatientID + "'" + ' ' + File[0:8])
