@@ -1,6 +1,9 @@
+#!/Library/Frameworks/Python.framework/Versions/3.9/bin/python3
 #This code requires the edf-anonymize.exe installed in Path and computer
 #Code also requires the os, sys, and subprocess modules
-#!/Library/Frameworks/Python.framework/Versions/3.9/bin/python3
+#Suzybackup.py -- mimics EDF-Anonymize.exe software
+#This program is to run with the name Suzybackup.py with the synopsis Suzybackup.py [args ...]
+#The program is executed with "python 3 Suzybackup.py {args ...]
 
 import os
 import subprocess
